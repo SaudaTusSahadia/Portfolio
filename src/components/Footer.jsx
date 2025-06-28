@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1a1a1a] text-white border-t border-pink-600">
+    <footer className="bg-[#262626] text-white border-t border-pink-600">
       {/* Top Grid */}
       <div className="max-w-7xl mx-auto py-12 px-4 md:px-8 grid md:grid-cols-3 gap-10 text-center md:text-left">
         {/* About / Name */}
@@ -18,10 +19,10 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold text-pink-500 mb-3">Quick Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#about" className="hover:text-pink-400 transition">About</a></li>
-            <li><a href="#projects" className="hover:text-pink-400 transition">Projects</a></li>
-            <li><a href="#skills" className="hover:text-pink-400 transition">Skills</a></li>
-            <li><a href="#contact" className="hover:text-pink-400 transition">Contact</a></li>
+            <li><Link to="/iAm" className="hover:text-pink-400 transition">About</Link></li>
+            <li><Link to="/projects" className="hover:text-pink-400 transition">Projects</Link></li>
+            <li><Link to="/skills" className="hover:text-pink-400 transition">Skills</Link></li>
+            <li><Link to="/contacts" className="hover:text-pink-400 transition">Contact</Link></li>
           </ul>
         </div>
 

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tasklink",
+    "name": "TaskLink — Freelance Task Platform",
+    "image": "https://i.ibb.co/W7JJp8b/TaskLink.png",
+    "link": "https://tasklink-auth.web.app/",
+    "github": "https://github.com/SaudaTusSahadia/TaskLink",
+    "stack": ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
+    "description": "A platform where freelancers can find tasks and earn.",
+    "challenges": "Authentication, role-based routing, and task filtering.",
+    "future": "Payment integration, messaging system."
+  },
+  {
+    "id": "artifactatlas",
+    "name": "Historical Artifacts Tracker",
+    "image": "https://i.ibb.co/yn7C3Q5J/Artifact-Atlas.png",
+    "link": "https://artifactatlas-8cb0a.web.app/",
+    "github": "https://github.com/SaudaTusSahadia/ArtifactAtlas",
+    "stack": ["React", "Firebase", "Tailwind"],
+    "description": "Track and manage historical artifacts.",
+    "challenges": "Complex search and filtering features.",
+    "future": "Add 3D model support, better filtering."
+  },
+  {
+    "id": "portfolio",
+    "name": "Portfolio Website",
+    "image": "https://i.ibb.co/xS6mTZms/logo.png",
+    "link": "https://rad-churros-cb072a.netlify.app/",
+    "github": "https://github.com/SaudaTusSahadia/Portfolio",
+    "stack": ["React", "Tailwind"],
+    "description": "Showcase of my projects and skills.",
+    "challenges": "Theme switching and responsive layout.",
+    "future": "Add blog system and animations."
+  }
+]

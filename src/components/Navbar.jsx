@@ -1,16 +1,18 @@
 import React from 'react';
 import logo from '../assets/logo.png';
+import { NavLink } from 'react-router';
+import './Navbar.css';
 
 const Navbar = () => {
     const links = (
         <>
-            <li><a className="hover:text-pink-600 font-medium">I Am</a></li>
-            <li><a className="hover:text-pink-600 font-medium">My Experience</a></li>
-            <li><a className="hover:text-pink-600 font-medium">Education</a></li>
-            {/* <li><a className="hover:text-pink-600 font-medium">Resume</a></li> */}
-            <li><a className="hover:text-pink-600 font-medium">Portfolio</a></li>
-            <li><a className="hover:text-pink-600 font-medium">Blog</a></li>
-            <li><a className="hover:text-pink-600 font-medium">Contacts</a></li>
+            <NavLink to='/'><li><a className="hover:text-pink-600 font-medium">I Am</a></li></NavLink>
+            <NavLink to='/experience'><li><a className="hover:text-pink-600 font-medium">Experience</a></li></NavLink>
+            <NavLink to='/education'><li><a className="hover:text-pink-600 font-medium">Education</a></li></NavLink>
+            <NavLink to='/projects'><li><a className="hover:text-pink-600 font-medium">Projects</a></li></NavLink>
+            <NavLink to='/skills'><li><a className="hover:text-pink-600 font-medium">Skills</a></li></NavLink>
+            <NavLink to='/blog'><li><a className="hover:text-pink-600 font-medium">Blogs</a></li></NavLink>
+            <NavLink to='/contacts'><li><a className="hover:text-pink-600 font-medium">Contact</a></li></NavLink>
         </>
     );
 
