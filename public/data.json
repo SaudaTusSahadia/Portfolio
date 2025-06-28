@@ -5,10 +5,16 @@
     "image": "https://i.ibb.co/W7JJp8b/TaskLink.png",
     "link": "https://tasklink-auth.web.app/",
     "github": "https://github.com/SaudaTusSahadia/TaskLink",
-    "stack": ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
-    "description": "A platform where freelancers can find tasks and earn.",
-    "challenges": "Authentication, role-based routing, and task filtering.",
-    "future": "Payment integration, messaging system."
+    "stack": [
+      "React",
+      "Tailwind",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "description": "TaskLink is a full-stack freelancing platform designed to connect clients with freelancers efficiently. Users can sign up as task creators or task solvers, post and manage tasks, and browse available freelance opportunities. The system features secure authentication, role-based access, and dynamic dashboards. It emphasizes a smooth workflow for both task assignment and completion, with a clean, responsive UI for seamless experience.",
+    "challenges": "Implementing secure authentication and authorization using JWT and Firebase, creating role-based routing to ensure users only access relevant features, and building an efficient filtering system for tasks based on categories, budget, and deadlines. Ensuring real-time UI updates and responsiveness across devices also required careful planning and testing.",
+    "future": "Planned features include payment gateway integration for secure transactions between clients and freelancers, a built-in messaging system for real-time communication, notification alerts, and a task completion verification system to ensure trust and reliability between parties."
   },
   {
     "id": "artifactatlas",
@@ -16,20 +22,30 @@
     "image": "https://i.ibb.co/yn7C3Q5J/Artifact-Atlas.png",
     "link": "https://artifactatlas-8cb0a.web.app/",
     "github": "https://github.com/SaudaTusSahadia/ArtifactAtlas",
-    "stack": ["React", "Firebase", "Tailwind"],
-    "description": "Track and manage historical artifacts.",
-    "challenges": "Complex search and filtering features.",
-    "future": "Add 3D model support, better filtering."
+    "stack": [
+      "React",
+      "Tailwind",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "description": "ArtifactAtlas is a modern web application built to catalog and track historical artifacts. It enables users to browse, search, and manage artifact entries with rich metadata including origin, type, discovery year, and more. Designed for researchers, curators, and history enthusiasts, the app uses Firebase for authentication and storage and offers a clean, intuitive UI built with Tailwind and React.",
+    "challenges": "Creating a scalable search and filtering mechanism that could handle diverse artifact data with accuracy and speed was a major challenge. Implementing conditional rendering based on user roles and managing asynchronous data with Firebase also required thoughtful architectural decisions. Ensuring data integrity while performing CRUD operations on sensitive historical data added another layer of complexity.",
+    "future": "Future plans include integration of interactive 3D models for each artifact, enhanced filtering using tags and timeline views, and support for image uploads with descriptions. Adding multilingual support and role-based contribution tools (like artifact suggestions by users) is also under consideration."
   },
   {
-    "id": "portfolio",
-    "name": "Portfolio Website",
-    "image": "https://i.ibb.co/xS6mTZms/logo.png",
-    "link": "https://rad-churros-cb072a.netlify.app/",
-    "github": "https://github.com/SaudaTusSahadia/Portfolio",
-    "stack": ["React", "Tailwind"],
-    "description": "Showcase of my projects and skills.",
-    "challenges": "Theme switching and responsive layout.",
-    "future": "Add blog system and animations."
+    "id": "eventexplorer",
+    "name": "Event Management Website",
+    "image": "https://i.ibb.co/WvJ2wJJN/image.png",
+    "link": "https://event-explorer-auth-418a5.web.app/",
+    "github": "https://github.com/SaudaTusSahadia/EventExplorer",
+    "stack": [
+      "React",
+      "Tailwind",
+      "Firebase"
+    ],
+    "description": "EventExplorer is a responsive event management web application designed to showcase various events with rich visuals and categorized listings. It includes features like user login, theme switching, and responsive layouts. Built using React and Firebase, the platform allows users to explore events based on category, date, and popularity. Ideal for conferences, meetups, or personal portfolios.",
+    "challenges": "Implementing a flexible light/dark theme system that persists user preferences was a key challenge. Creating a fully responsive layout that worked flawlessly across all devices and managing component-based state for filtering and display also required a well-planned structure. Integrating Firebase authentication with role-based UI customization added complexity.",
+    "future": "Upcoming features include a blog or announcement system for event organizers, dynamic animations using libraries like Framer Motion, and admin tools to manage and analyze user interactions. Further improvements in accessibility and SEO optimization are also part of the roadmap."
   }
 ]
