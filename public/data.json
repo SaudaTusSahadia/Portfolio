@@ -18,7 +18,7 @@
   },
   {
     "id": "artifactatlas",
-    "name": "Historical Artifacts Tracker",
+    "name": "ArtifactAtlas - Historical Artifacts Tracker",
     "image": "https://i.ibb.co/yn7C3Q5J/Artifact-Atlas.png",
     "link": "https://artifactatlas-8cb0a.web.app/",
     "github": "https://github.com/SaudaTusSahadia/ArtifactAtlas",
@@ -35,7 +35,7 @@
   },
   {
     "id": "eventexplorer",
-    "name": "Event Management Website",
+    "name": "EventExplorer - Event Management Website",
     "image": "https://i.ibb.co/WvJ2wJJN/image.png",
     "link": "https://event-explorer-auth-418a5.web.app/",
     "github": "https://github.com/SaudaTusSahadia/EventExplorer",
