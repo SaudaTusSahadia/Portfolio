@@ -20,7 +20,7 @@ const ProjectSection = () => {
     fetch('data.json')
       .then((res) => res.json())
       .then((data) => setProjects(data))
-      .catch((error) => console.error("Error loading projects:", error));
+      // .catch((error) => console.error("Error loading projects:", error));
   }, []);
 
   return (
