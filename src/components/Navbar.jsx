@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="navbar-start">
                     <div className="dropdown lg:hidden">
                         <div tabIndex={0} role="button" className="btn btn-ghost">
-                            <FaBars className="text-2xl" /> 
+                            <FaBars className="text-2xl" />
                         </div>
                         <ul
                             tabIndex={0}
@@ -49,8 +49,16 @@ const Navbar = () => {
 
                 {/* Right: Resume Button */}
                 <div className="navbar-end">
-                    <a className="btn bg-pink-600 hover:bg-pink-700 text-white border-none font-semibold">Resume</a>
+                    <a
+                        href="https://drive.google.com/file/d/14yy4NG2qDv6LwP8uk86APpuctYFfNJXE/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn bg-pink-600 hover:bg-pink-700 text-white border-none font-semibold"
+                    >
+                        Resume
+                    </a>
                 </div>
+
             </div>
         </div>
     );

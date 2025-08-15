@@ -1,2 +1,38 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+.boxGrad {
+  /* background: linear-gradient(145deg, #1e2024, #2a2d33); */
+  background: #1e2024;
+  box-shadow: 5px 5px 10px #1c1e22, -5px -5px 10px #1c1e22 ;
+  
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+  
+  border: 1px solid #00000020;
+}
+
+.boxGrad:hover {
+    box-shadow: 10px 10px 19px #272a30, -10px -10px 19px #262a2e;
+}
+
+ /* shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225; 
+    --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset; */
+
+        /* var(--inner-shadow);
+  
+
+  /* --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, 
+                  -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;  */
+
+
+                    /* transition-behavior: normal;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all
+  border: 1px solid #2c2f34; */

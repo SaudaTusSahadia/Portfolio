@@ -10,17 +10,17 @@ const socialLinks = [
   {
     name: 'LinkedIn',
     icon: <FaLinkedin />,
-    link: 'https://linkedin.com/in/sauda-tus-sahadia-022849233/',
+    link: 'https://www.linkedin.com/in/sauda-tus-sahadia/',
   },
   {
     name: 'Twitter',
     icon: <FaTwitter />,
-    // link: '', 
+    link: 'https://x.com/saudatussahadia', 
   },
   {
     name: 'Facebook',
     icon: <FaFacebook />,
-    // link: '', 
+    link: 'https://www.facebook.com/saudatussahadia.Bhuiyan', 
   },
 ];
 
@@ -35,7 +35,7 @@ const SocialLinks = () => {
             href={social.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-5 py-2  rounded-2xl shadow-black shadow-2xl hover:bg-pink-600 transition-all duration-300"
+            className="flex items-center gap-2 px-5   rounded-2xl shadow-black shadow-2xl hover:bg-pink-600 transition-all duration-300"
           >
             <span className="text-2xl">{social.icon}</span>
             {/* <span className="hidden sm:inline">{social.name}</span> */}

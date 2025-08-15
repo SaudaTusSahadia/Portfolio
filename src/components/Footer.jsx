@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#262626] text-white border-t border-pink-600">
+    <footer className="bg-[#212428] text-white border-t border-pink-600">
       {/* Top Grid */}
       <div className="max-w-7xl mx-auto py-12 px-4 md:px-8 grid md:grid-cols-3 gap-10 text-center md:text-left">
         {/* About / Name */}
@@ -45,7 +45,7 @@ const Footer = () => {
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/sauda-tus-sahadia-022849233/"
+              href="https://www.linkedin.com/in/sauda-tus-sahadia/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-pink-400 transition"
