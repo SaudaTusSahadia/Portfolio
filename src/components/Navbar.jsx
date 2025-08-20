@@ -50,7 +50,7 @@ const Navbar = () => {
                 {/* Right: Resume Button */}
                 <div className="navbar-end">
                     <a
-                        href="https://drive.google.com/file/d/14yy4NG2qDv6LwP8uk86APpuctYFfNJXE/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1WGsKwDRmOMDPldM2JY2jznb70c6kuiEa/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn bg-pink-600 hover:bg-pink-700 text-white border-none font-semibold"
